@@ -1,0 +1,58 @@
+
+img{
+    max-height: 100%;
+    display: block;
+}
+
+
+
+
+
+.item1{
+    background-color: aqua;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.item-caption{
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: 0%;
+   
+    transform: translateY(-50,-50)
+} 
+.light{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.808);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.light-in{
+     position: relative;
+    width: 50%;
+    height: 500px;
+    background-image: url(../pics/pop-up-2.jpg);
+   background-size: cover;
+    background-position: center center;
+
+
+}
+
+.close{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.fas{
+    cursor: pointer;
+}
